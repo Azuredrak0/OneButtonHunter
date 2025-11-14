@@ -107,7 +107,7 @@ function OBH:Run()
 		CastSpellByName(self.name[4])
 	else
 		if not IsCurrentAction(self.autoSlot) then
-			UseAction(self.autoSlot)
+			--UseAction(self.autoSlot)
 		end
 	end
 end
